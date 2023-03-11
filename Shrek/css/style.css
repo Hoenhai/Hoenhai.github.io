@@ -1,0 +1,123 @@
+body {
+    background-color: Coral;
+    font-size: 250%;
+}
+
+div{
+    border: 0px solid Cornsilk;
+}
+
+
+.container{
+    width: 1200px;
+    min-height: 100px;
+    margin: 50px auto;
+    background-color: Cornsilk;
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+.nav, .footer {
+    width: 1100px;
+    min-height: 60px;
+    background-color:Red;
+    margin: 50px 0 0 50px;
+}
+
+.nav > a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    color: Cornsilk;
+}
+
+.nav > a:hover {
+    color: Cornsilk;
+    background-color: DarkOliveGreen;
+}
+
+.left, .right, .left1, .left2, .left3, .left4{
+    height: 410px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 50px;
+    vertical-align: top;
+}
+
+.left {
+    width: 300px;
+    background: url('../img/Shrek1.jpg');
+    background-size: 100%;
+}
+
+.left1 {
+    width: 300px;
+    background: url('../img/Shrek_pers.jpg');
+    background-size: 100%;
+}
+
+.left2 {
+    width: 300px;
+    background: url('../img/donkey.jpg');
+    background-size: 100%;
+}
+
+.left3 {
+    width: 300px;
+    background: url('../img/phiona.jpg');
+    background-size: 100%;
+}
+
+.left4 {
+    width: 300px;
+    background: url('../img/lord.jpg');
+    background-size: 100%;
+}
+
+.right {
+    width: 740px;
+    background-color: red;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.right > p {
+    color: bisque;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer > h4{
+    color: bisque;
+    text-align: center;
+    margin: 0;
+}
+
+.container > a {
+    text-decoration: none;
+}
+
+img.preview {
+    width: 518px;
+    height: 330px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 10px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px red;
+}
+
+.container > iframe {
+    display: block;
+    width: 1100px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
